@@ -34,11 +34,13 @@ public class Maien {
 
             int QTY = in.nextInt();
 
-            for (int i = 0; i <= QTY; i++) {
-                System.out.println("che tipo di emozione/i hai provato?");
-                String Emozione = in.nextLine();
-                fw.append(" " + Emozione + " ");
-            }
+            int x = 0;
+            do {
+            	System.out.println("che tipo di emozione hai provato?");
+            	String Emozione = in.next();
+            	fw.append(" " + Emozione + " ");
+            	x++;	
+            }while(x < QTY);
 
             fw.append(newLine);
 
