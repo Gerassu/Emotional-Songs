@@ -11,6 +11,7 @@ public class EmotionalSongs {
 		System.out.println(Ricerca.RiceraNome("Don't Pan"));
 		System.out.println(Ricerca.RiceraAnno_Autore("Joe Venuti_ Eddie Lang", 1926));
 		System.out.println(Ricerca.RiceraAnno_Autore("Barrington Levy", 1922));
+		RegistraPlaylist.registraPlaylist();
 	}
 
 }
