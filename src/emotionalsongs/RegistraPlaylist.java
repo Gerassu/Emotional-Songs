@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class RegistraPlaylist {
 
-	public static void main(String[] args) throws IOException {
+	public static void registraPlaylist() throws IOException {
 		//list con canzoni aggiunte
 		LinkedList<String> playlist = new LinkedList<String>();
 		//list con risultati della ricerca
